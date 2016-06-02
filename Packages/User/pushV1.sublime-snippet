@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+scp $1 app7:$1
+scp $1 app8:$1
+scp $1 app9:$1
+scp $1 app10:$1
+scp $1 app11:$1
+scp $1 app12:$1
+scp $1 app13:$1
+scp $1 sweb3:$1
+scp $1 sweb4:$1
+scp $1 sweb5:$1
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>pushV1</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

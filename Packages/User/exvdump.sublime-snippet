@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+echo "<p style='border: 1px solid green;'><span style='color: red; font-weight: bold;'>${1:label}</span> - <span style='color: purple;'>LINE: $TM_LINE_NUMBER</span><br /><span style='color: blue; font-weight: bold'>" . \$${1:var}."</span></p>";
+exit;
+$0		
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>exvdump</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+return array("goDie"=>true, 
+			'lastWords'=>"Line: $TM_LINE_NUMBER | $1 ", 
+			'lastArray'=>${2:''}
+			);
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>retDie</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

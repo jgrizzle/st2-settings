@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+	/****************************************/
+	\$totalExecution = 0.00000000000000000000;
+	\$execStart = microtime(TRUE);
+	/****************************************/
+	$1
+	$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>profStart</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

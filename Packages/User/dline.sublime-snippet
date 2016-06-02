@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+echo "${1:label} | LINE: $TM_LINE_NUMBER | FUNCTION:" . __FUNCTION__ . ' | FILE: ${TM_FILEPATH/.+trunk//gmi}<br />';
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dline</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

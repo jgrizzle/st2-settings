@@ -1,0 +1,14 @@
+<snippet>
+    <content><![CDATA[
+require('parentClasses/defaults.php');
+require('parentClasses/environment.php');
+\$defaults = new defaults;
+\$environment = new environment;
+\$defaults::\$dbAddresses = \$defaults::\$liveAddresses;
+$0
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>liveDefault</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

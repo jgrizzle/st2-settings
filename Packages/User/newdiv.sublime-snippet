@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<div id="${1:id}" class="$2">
+$3 	$SELECTION
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>newdiv</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

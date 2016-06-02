@@ -1,0 +1,20 @@
+[
+    { "caption": "-" },
+    {
+        "caption": "Go To Class",
+        "command": "go_to_class"
+    },
+    {
+        "caption": "Go To Parent Class",
+        "command": "go_to_parent_class"
+    },
+    {
+        "caption": "Go To Function",
+        "command": "go_to_function"
+    },
+    {
+        "caption": "Go To Data",
+        "command": "go_to_data"
+    },
+    { "caption": "-" }
+]

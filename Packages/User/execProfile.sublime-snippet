@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+	/****************************************/
+	\$totalExecution = 0.00000000000000000000;
+	/****************************************/
+	
+	/****************************************/
+	\$execStart = microtime(TRUE);
+	/****************************************/
+
+$SELECTION
+
+	/****************************************/
+	\$execSum = microtime(TRUE) - \$execStart;
+	\$totalExecution += \$execSum;
+	echo "$TM_LINE_NUMBER end $1: ". \$execSum."<br />";
+	/****************************************/
+	$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>execProfile</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+echo "<pre style='border: 1px solid blue; white-space: pre-wrap;'><span style='color: red; font-weight: bold;'>" . __FUNCTION__ . '<br />';
+echo "${1:label} - TYPE: " . gettype(\$$1) . "</span><br />";
+echo "<span style='color: blue; font-weight: bold;'>FILE: ${TM_FILEPATH/.+trunk//gmi}";
+echo "- LINE: $TM_LINE_NUMBER</span><span style='color: purple; font-weight: bold;'> - COUNT: " . count(\$$1) . "</span><br />";
+print_r(\$${1:array});
+echo "</pre>";
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>old-arrdump</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

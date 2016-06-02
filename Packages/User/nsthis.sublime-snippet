@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+<?php ${TM_FILEPATH/(?:\/J\/Scrum\/app\/)(?:ware)/f$1m/ig}
+
+<?php namespace ${TM_FILEPATH/(?:\/J\/Scrum\/app\/)(.+)(\/.+\.php)/$1/ig};
+
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>nsthis</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

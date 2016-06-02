@@ -1,0 +1,42 @@
+{
+	"auto_upgrade_last_run": null,
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AlignTab",
+		"BracketHighlighter",
+		"CTags",
+		"Dark Neon Color Scheme",
+		"DocBlockr",
+		"Duplicate Same",
+		"Emmet",
+		"FileDiffs",
+		"Find Function Definition",
+		"Find Non ASCII Characters",
+		"Follow Function PHP",
+		"Function Name Display",
+		"GitHub Flavored Markdown Preview",
+		"GoToClass",
+		"GotoDocumentation",
+		"GoToFile",
+		"HTML-CSS-JS Prettify",
+		"Http Requester",
+		"Laravel 4 Snippets",
+		"Laravel Blade Highlighter",
+		"Laravel Bootstrapper Snippets",
+		"Markdown Extended",
+		"Minifier",
+		"Neon Color Scheme",
+		"Origami",
+		"Package Control",
+		"Phpcs",
+		"PhpNamespace",
+		"Sass",
+		"ScopeHunter",
+		"ShowEncoding",
+		"SimpleClone"
+	]
+}

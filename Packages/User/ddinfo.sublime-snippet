@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+dd("INFO: $1 | LINE: " . $TM_LINE_NUMBER . ' | FILE: ${TM_FILEPATH/.+trunk//gmi} | FN: ' . __FUNCTION__);
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ddinfo</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

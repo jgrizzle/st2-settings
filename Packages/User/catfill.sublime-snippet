@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+<img src="http://placekitten.com/$1/$2" style="height: $1px; width: $2px; display: block; border: 0px none" />
+$3
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>catfill</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

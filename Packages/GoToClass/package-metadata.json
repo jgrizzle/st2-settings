@@ -1,0 +1,1 @@
+{"description": "Sublime Text Plugin to open the class file of the highlighted name", "url": "https://github.com/lazyguru/GoToClass", "platforms": ["*"], "version": "2015.01.26.15.31.18", "sublime_text": "*", "dependencies": []}

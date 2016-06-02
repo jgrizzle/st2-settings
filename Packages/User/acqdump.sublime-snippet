@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+echo "Before: ".$1${SELECTION/(\s*)?(.*)(\s=\s.*)/$2/}.NCEOL;
+	$SELECTION
+echo "After: ".$1${SELECTION/(\s*)?(.*)(\s=\s.*)/$2/}.NCEOL.NCEOL;
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>acqdump</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

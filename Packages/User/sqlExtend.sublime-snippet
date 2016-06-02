@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+\$get$1SQL = "";
+\$get$1 = mysql_query(\$get$1SQL, \$this->getRes("$2"))
+	or trigger_error("$3 !% \$get$1SQL !%" . mysql_error(), E_USER_ERROR);
+if (\$get$1 !== false) {
+	$4
+}
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sqlExtend</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+    \$liveDB = mysql_connect(defaults::\$liveAddresses['db2'], defaults::\$dbUser, defaults::\$dbPass, true);
+    $0
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>liveDBConnect</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

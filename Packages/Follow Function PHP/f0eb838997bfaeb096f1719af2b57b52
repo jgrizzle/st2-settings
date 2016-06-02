@@ -1,0 +1,195 @@
+function dogBiscuit();C:\Users\Justin\Work\Projects\Scrum\app\dogs.php
+function __construct(Filesystem $file, TemplateRepositoryInterface $template);C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateComponentCommand.php
+function fire();C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateComponentCommand.php
+function getArguments();C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateComponentCommand.php
+function validateTwigName($twigName);C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateComponentCommand.php
+function getComponentsFromMarkup($markup);C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateComponentCommand.php
+function getOptions();C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateComponentCommand.php
+function __construct(NewTemplateGenerator $generator);C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateGeneratorCommand.php
+function fire();C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateGeneratorCommand.php
+function __construct(ReviseTemplateGenerator $generator, TemplateRepositoryInterface $template);C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateReviseCommand.php
+function fire();C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateReviseCommand.php
+function getArguments();C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateReviseCommand.php
+function __construct();C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateSyncCommand.php
+function fire();C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateSyncCommand.php
+function comparison();C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateSyncCommand.php
+function getFiles();C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateSyncCommand.php
+function getTemplates();C:\Users\Justin\Work\Projects\Scrum\app\commands\TemplateSyncCommand.php
+function getBoilerplate($template, $original);C:\Users\Justin\Work\Projects\Scrum\app\commands\Generators\NewTemplateGenerator.php
+function getBoilerplate($template, $original);C:\Users\Justin\Work\Projects\Scrum\app\commands\Generators\ReviseTemplateGenerator.php
+function makeRevision($name, $first = false);C:\Users\Justin\Work\Projects\Scrum\app\commands\Generators\ReviseTemplateGenerator.php
+function updateCorrespondingComponents($name);C:\Users\Justin\Work\Projects\Scrum\app\commands\Generators\ReviseTemplateGenerator.php
+function output($message = '', $type = 'info');C:\Users\Justin\Work\Projects\Scrum\app\commands\Generators\ReviseTemplateGenerator.php
+function setFindReplace($find = array();C:\Users\Justin\Work\Projects\Scrum\app\commands\Generators\ReviseTemplateGenerator.php
+function getFindReplace();C:\Users\Justin\Work\Projects\Scrum\app\commands\Generators\ReviseTemplateGenerator.php
+function __construct(Filesystem $file);C:\Users\Justin\Work\Projects\Scrum\app\commands\Generators\TemplateGenerator.php
+function make($template, $useExisting = null);C:\Users\Justin\Work\Projects\Scrum\app\commands\Generators\TemplateGenerator.php
+function addListener($listener);C:\Users\Justin\Work\Projects\Scrum\app\commands\Generators\TemplateGenerator.php
+function getBoilerplate($template, $original);C:\Users\Justin\Work\Projects\Scrum\app\commands\Generators\TemplateGenerator.php
+;C:\Users\Justin\Work\Projects\Scrum\app\config\mail.php
+function setupLayout();C:\Users\Justin\Work\Projects\Scrum\app\controllers\BaseController.php
+function index();C:\Users\Justin\Work\Projects\Scrum\app\controllers\SitemapController.php
+function xml();C:\Users\Justin\Work\Projects\Scrum\app\controllers\SitemapController.php
+function listings($chunk);C:\Users\Justin\Work\Projects\Scrum\app\controllers\SitemapController.php
+function run();C:\Users\Justin\Work\Projects\Scrum\app\database\seeds\DatabaseSeeder.php
+function getUrls($page);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Factories\PageUrl\PageUrlFactory.php
+function factoryMethod(PageUrlInterface $pageUrlGenerator, $page);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Factories\PageUrl\PageUrlFactory.php
+function getUrl($page);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Factories\PageUrl\PageUrlInterface.php
+function buildUrl($page, $append = '');C:\Users\Justin\Work\Projects\Scrum\app\IDX\Factories\PageUrl\PageUrlInterface.php
+function multipleMlsSearchUrls($page);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Factories\PageUrl\PageUrlInterface.php
+function getUrl($page);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Factories\PageUrl\StandardUrl.php
+function getUrl($page);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Factories\PageUrl\Categories\DetailsUrl.php
+function getUrl($page);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Factories\PageUrl\Categories\MapUrl.php
+function getUrl($page);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Factories\PageUrl\Categories\ResultsUrl.php
+function ignore();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Factories\PageUrl\Categories\ResultsUrl.php
+function getUrl($page);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Factories\PageUrl\Categories\RosterUrl.php
+function getUrl($page);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Factories\PageUrl\Categories\SearchUrl.php
+function register();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\BackendServiceProvider.php
+function forSitemap();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\Agent\AgentRepositoryInterface.php
+function forSitemap();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\Agent\EloquentAgentRepository.php
+function forSitemap();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\Office\EloquentOfficeRepository.php
+function forSitemap();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\Office\OfficeRepositoryInterface.php
+function allLinkable();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\Page\EloquentPageRepository.php
+function allLinkable();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\Page\PageRepositoryInterface.php
+function find($id);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\SavedLink\EloquentSavedLinkRepository.php
+function all();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\SavedLink\EloquentSavedLinkRepository.php
+function allLinks();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\SavedLink\EloquentSavedLinkRepository.php
+function find($id);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\SavedLink\NoSqlSavedLinkRepository.php
+function all();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\SavedLink\NoSqlSavedLinkRepository.php
+function allLinks();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\SavedLink\NoSqlSavedLinkRepository.php
+function find($id);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\SavedLink\SavedLinkRepositoryInterface.php
+function all();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\SavedLink\SavedLinkRepositoryInterface.php
+function allLinks();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\SavedLink\SavedLinkRepositoryInterface.php
+function all( $columns = array('*');C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\Template\EloquentTemplateRepository.php
+function findByName($name, $sort='desc');C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\Template\EloquentTemplateRepository.php
+function findByTwigName($twigName, $sort='desc');C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\Template\EloquentTemplateRepository.php
+function hasComponent( $name, $columns = array('*');C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\Template\EloquentTemplateRepository.php
+function all( $columns );C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\Template\TemplateRepositoryInterface.php
+function findByName( $name );C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\Template\TemplateRepositoryInterface.php
+function findByTwigName( $twigName );C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\Template\TemplateRepositoryInterface.php
+function hasComponent( $name );C:\Users\Justin\Work\Projects\Scrum\app\IDX\Repositories\Template\TemplateRepositoryInterface.php
+function getFeaturedUrls();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Listings\Properties.php
+function getFeaturedProperties();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Listings\Properties.php
+;C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Listings\Properties.php
+function __construct($cityList = null, $fullState = false);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\Cities.php
+function getCities();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\Cities.php
+function buildUrl($baseUrl, $idxID, $city);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\Cities.php
+function __construct($defaults);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\Prices.php
+function getPriceData($keyed = false);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\Prices.php
+function add(array $urls);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\UrlGatherer.php
+function getXmlSitemapUrls();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\UrlGatherer.php
+function makeXmlSafe();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\UrlGatherer.php
+function getSavedLinkUrls();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\UrlGatherer.php
+function getPageUrls();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\UrlGatherer.php
+function getFeaturedUrls();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\UrlGatherer.php
+function getAgentUrls();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\UrlGatherer.php
+function getOfficeUrls();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\UrlGatherer.php
+function getPriceUrls();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\UrlGatherer.php
+function getCities();C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\UrlGatherer.php
+function getIndexXmlUrls($returnChunks);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\UrlGatherer.php
+function getPropsDetailUrls($chunk);C:\Users\Justin\Work\Projects\Scrum\app\IDX\Services\Sitemap\UrlGatherer.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\FieldDef.php
+function __construct($idxID);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\MlsInfo.php
+function getPropertyTypes();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\MlsInfo.php
+function getResources();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\MlsInfo.php
+function getMetaData();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\MlsInfo.php
+function __construct(PropertyTypeRepoInterface $PropertyType);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Controllers\AnalyzerController.php
+function index($idxID);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Controllers\AnalyzerController.php
+function pt($idxID, $id = '');C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Controllers\AnalyzerController.php
+function show ($id);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Controllers\AnalyzerController.php
+function __construct(MlsRepoInterface $Mls);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Controllers\MapperController.php
+function index($idxID = '');C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Controllers\MapperController.php
+function vendor($idxID = '');C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Controllers\MapperController.php
+function getVendor ($id, VendorRepoInterface $Vendor);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Controllers\MapperController.php
+function __construct(VendorRepoInterface $Vendor);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Controllers\VendorController.php
+function index($idxID = '');C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Controllers\VendorController.php
+function vendor($idxID = '');C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Controllers\VendorController.php
+function show ($id);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Controllers\VendorController.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbIdxID\Archive.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbIdxID\BaseIdxID.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbIdxID\FieldDefinition.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbIdxID\PropertyType.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbMls\BaseMls.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbMls\CoreFieldDefinition.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbMls\Credential.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbMls\FieldChange.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbMls\MapperLog.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbMls\Mls.php
+function dogBiscuit();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbMls\Mls.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbMls\ParentPropertyType.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbMls\RetsQueryList.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbMls\Vendor.php
+function mls();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbMls\Vendor.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Models\DbMls\VendorCoreFieldLookup.php
+function register();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\MapperServiceProvider.php
+function all ();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbIdxID\ArchiveEloquent.php
+function find ($id);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbIdxID\ArchiveEloquent.php
+function all ();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbIdxID\FieldDefinitionEloquent.php
+function find ($id);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbIdxID\FieldDefinitionEloquent.php
+function all();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbIdxID\PropertyTypeEloquent.php
+function find($id);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbIdxID\PropertyTypeEloquent.php
+function all();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\BaseMlsEloquent.php
+function find($id);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\BaseMlsEloquent.php
+function validateIdxID($idxID);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\BaseMlsEloquent.php
+function all();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\BaseMlsRepoInterface.php
+function find($id);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\BaseMlsRepoInterface.php
+function all();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\CoreFieldDefinitionEloquent.php
+function find ($id);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\CoreFieldDefinitionEloquent.php
+function all();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\CredentialEloquent.php
+function find ($id);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\CredentialEloquent.php
+function all();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\FieldChangeEloquent.php
+function find ($id);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\FieldChangeEloquent.php
+function all();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\MapperLogEloquent.php
+function find ($id);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\MapperLogEloquent.php
+function all();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\MlsEloquent.php
+function find($id);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\MlsEloquent.php
+function validateIdxID($idxID);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\MlsEloquent.php
+function coreFields($idxID);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\MlsEloquent.php
+function vendorFields($vendorID);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\MlsEloquent.php
+function info($idxID);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\MlsEloquent.php
+function vendor();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\MlsEloquent.php
+function validateIdxID($idxID);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\MlsRepoInterface.php
+function coreFields($idxID);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\MlsRepoInterface.php
+function vendorFields($vendorID);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\MlsRepoInterface.php
+function info($idxID);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\MlsRepoInterface.php
+function vendor();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\MlsRepoInterface.php
+function all();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\RetsQueryListEloquent.php
+function find ($id);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\RetsQueryListEloquent.php
+function all();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\VendorCoreFieldLookupEloquent.php
+function find ($id);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\VendorCoreFieldLookupEloquent.php
+function all ();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\VendorEloquent.php
+function find ($id);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\VendorEloquent.php
+function mls();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\VendorEloquent.php
+function mls();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Repositories\DbMls\VendorRepoInterface.php
+function __construct($idxID);C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Services\Mapper.php
+function getPropertyTypes();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Services\Mapper.php
+function getResources();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Services\Mapper.php
+function getMetaData();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Services\Mapper.php
+function sayHi();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Services\Analyzer\RetrieveData.php
+function parseEmpty();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Services\Analyzer\RetrieveData.php
+function refreshMetaData();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Services\Analyzer\RetrieveData.php
+function populateFieldDefs();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Services\Analyzer\RetrieveData.php
+function mapVendorFields();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Services\Analyzer\RetrieveData.php
+function getEmptyFields();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Services\Analyzer\RetrieveData.php
+function validateDbStructure();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Services\Analyzer\RetrieveData.php
+function getDupes();C:\Users\Justin\Work\Projects\Scrum\app\Mapper\Services\Analyzer\RetrieveData.php
+function getAgentDisplayNameAttribute($displayName);C:\Users\Justin\Work\Projects\Scrum\app\models\Agent.php
+function getUrlAttribute();C:\Users\Justin\Work\Projects\Scrum\app\models\Agent.php
+function __construct(array $attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\models\BaseModel.php
+function getUrlAttribute();C:\Users\Justin\Work\Projects\Scrum\app\models\Office.php
+function client();C:\Users\Justin\Work\Projects\Scrum\app\models\Page.php
+function getUrlAttribute();C:\Users\Justin\Work\Projects\Scrum\app\models\Page.php
+function client();C:\Users\Justin\Work\Projects\Scrum\app\models\SavedLink.php
+function getUrlAttribute();C:\Users\Justin\Work\Projects\Scrum\app\models\SavedLink.php
+function scopeDb($query, $database);C:\Users\Justin\Work\Projects\Scrum\app\models\Servermap.php
+function getServerAttribute($value);C:\Users\Justin\Work\Projects\Scrum\app\models\Servermap.php
+function getConn($database);C:\Users\Justin\Work\Projects\Scrum\app\models\Servermap.php
+function __construct($attributes = array();C:\Users\Justin\Work\Projects\Scrum\app\models\Template.php
+function getCategories();C:\Users\Justin\Work\Projects\Scrum\app\models\Template.php
+function getTypes();C:\Users\Justin\Work\Projects\Scrum\app\models\Template.php
+function getPathAttribute();C:\Users\Justin\Work\Projects\Scrum\app\models\Template.php
+function scopeLatest($query);C:\Users\Justin\Work\Projects\Scrum\app\models\Template.php
+function testBasicExample();C:\Users\Justin\Work\Projects\Scrum\app\tests\ExampleTest.php
+function createApplication();C:\Users\Justin\Work\Projects\Scrum\app\tests\TestCase.php
+;C:\Users\Justin\Work\Projects\Scrum\app\views\layouts\_header.php
+;C:\Users\Justin\Work\Projects\Scrum\app\views\layouts\_header.php

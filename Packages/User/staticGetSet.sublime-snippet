@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+public function get$1()
+{
+    return self::\$${1/./\l$&/};
+}
+public function set$1(\$value = '')
+{
+    self::\$${1/./\l$&/} = \$value;
+}
+$0
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>staticGetSet</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+\$set$1SQL = "";
+\$set$1 = mysql_query(\$set$1SQL, \$defaults->getRes("$2"))
+	or trigger_error("$3%!\$set$1SQL!%" . mysql_error(), E_USER_ERROR);
+if (\$set$1 !== false) {
+	$4
+}
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>setsqlDefault</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

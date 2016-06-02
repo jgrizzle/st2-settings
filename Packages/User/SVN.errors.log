@@ -1,0 +1,17 @@
+2013-04-08 13:26:17
+Traceback (most recent call last):
+  File "./sublimesvn/threads.py", line 18, in run_with_except_hook
+  File "./sublimesvn/threads.py", line 89, in run
+  File "./sublimesvn/commands.py", line 4128, in do_update
+  File "./sublimesvn/commands.py", line 4093, in alert_not_applicable
+AttributeError: 'SvnUpdateCommand' object has no attribute 'wc_path'
+2013-04-18 11:08:09
+Traceback (most recent call last):
+  File "./sublimesvn/threads.py", line 18, in run_with_except_hook
+  File "./sublimesvn/threads.py", line 89, in run
+  File "./sublimesvn/commands.py", line 1011, in do_checkout
+  File "./sublimesvn/proc.py", line 898, in run
+  File "./sublimesvn/proc.py", line 837, in do_read
+  File "./sublimesvn/proc.py", line 355, in __init__
+  File "./sublimesvn/proc.py", line 395, in open
+AttributeError: 'NoneType' object has no attribute 'replace'
